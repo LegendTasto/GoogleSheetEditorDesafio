@@ -23,3 +23,4 @@ C:\Users\User.DESKTOP-P20UJ77\.projetoDesafioTuntsRocks\CodeDesafioTunts\GoogleS
 C:\Users\User.DESKTOP-P20UJ77\.projetoDesafioTuntsRocks\CodeDesafioTunts\GoogleSheetEditorDesafio\obj\Debug\net8.0\GoogleSheetEditorDesafio.csproj.AssemblyReference.cache
 C:\Users\User.DESKTOP-P20UJ77\.projetoDesafioTuntsRocks\CodeDesafioTunts\GoogleSheetEditorDesafio\obj\Debug\net8.0\GoogleSheetEditorDesafio.csproj.CopyComplete
 C:\Users\User.DESKTOP-P20UJ77\.projetoDesafioTuntsRocks\CodeDesafioTunts\GoogleSheetEditorDesafio\bin\Debug\net8.0\client_secret.json
+C:\Users\User.DESKTOP-P20UJ77\.projetoDesafioTuntsRocks\CodeDesafioTunts\GoogleSheetEditorDesafio\obj\Debug\net8.0\GoogleSheetEditorDesafio.sourcelink.json

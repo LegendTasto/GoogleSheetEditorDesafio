@@ -12,7 +12,7 @@ public class Program
 {
     public static readonly string[] Scopes = {SheetsService.Scope.Spreadsheets};
 
-    public static readonly string ApplicationName = "Professor";
+    public static readonly string ApplicationName = "Teacher";
 
     public static readonly string SpreadsheetID = "1M2qelQQooCt6KKPntWyyUNbAdVJVz_fu-GPN5GldbpA";
 
@@ -113,7 +113,7 @@ public class Program
                     }
                     else if (media > 70){
                         Situação[i] = 2;//Exame Final
-                        naf[i] = 100 - media;
+                        naf[i] = (int)Math.Round(100 - media);
                     }
                     else
                     {
@@ -124,12 +124,12 @@ public class Program
             }
         }
 
-        SettingSituacao_NAF(Situação,naf);
+        Writing_Situacao_NAF(Situação,naf);
     }
 
 
 
-        private static void SettingSituacao_NAF(int[] situação, float[] naf)
+        private static void Writing_Situacao_NAF(int[] situação, float[] naf)
     {
         int i = 0;
         var rangeSituacao = $"{sheet}!G4:G27";

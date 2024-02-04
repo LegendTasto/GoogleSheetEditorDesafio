@@ -22,7 +22,7 @@ public class Program
 
     static void Init(){
         GoogleCredential credential;
-        string fullPath = @"C:\Users\User.DESKTOP-P20UJ77\.projetoDesafioTuntsRocks\CodeDesafioTunts\GoogleSheetEditorDesafio\client_secret.json";
+        string fullPath = @"C:\Users\User.DESKTOP-P20UJ77\.projetoDesafioTuntsRocks\CodeDesafioTunts\GoogleSheetEditorDesafio\client_secret.json";//Need to add private key to it
 
         using (FileStream stream = new FileStream(fullPath, FileMode.Open, FileAccess.Read))
         {
